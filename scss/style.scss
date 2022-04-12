@@ -91,3 +91,21 @@ $main_color: #0B44FF;
     border-radius: 26px;
   }
 }
+.join_section{
+  padding-top: 50px;
+}
+.item_wrap{
+  display: flex;
+  flex-wrap: wrap;
+  .item{
+    border-radius: 35px;
+    background: #fff;
+    padding: 53px 48px;
+    .item_img{
+      text-align: center;
+      img{
+
+      }
+    }
+  }
+}
