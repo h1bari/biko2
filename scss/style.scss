@@ -46,15 +46,15 @@ $main_color: #0B44FF;
 .menu_wrap{
   display: flex;
   align-items: center;
- .menu{
-   li{
-     display: inline-block;
-     margin-right: 38px;
-     a{
-       font-size: 17px;
-     }
-   }
- }
+  .menu{
+    li{
+      display: inline-block;
+      margin-right: 38px;
+      a{
+        font-size: 17px;
+      }
+    }
+  }
   .help_button{
     a{
       padding: 11px 27px;
@@ -62,5 +62,23 @@ $main_color: #0B44FF;
       color: $main_color_text;
       border-radius: 6px;
     }
+  }
+}
+.head_block{
+  padding: 140px 0 107px;
+}
+.head_block_wrap{
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+.head_block_description{
+  flex-basis: 55%;
+  h1{
+    font-size: 42px;
+    font-weight: 600;
+  }
+  p{
+    margin-top: 28px;
+    font-size: 20px;
   }
 }
