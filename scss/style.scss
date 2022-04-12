@@ -118,5 +118,15 @@ $main_color: #0B44FF;
         font-size: 20px;
       }
     }
+    .join_btn{
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+      a{
+        background: #0B44FF;
+        border-radius: 8px;
+        padding: 10px 35px;
+      }
+    }
   }
 }

@@ -116,5 +116,15 @@
   margin-bottom: 10px;
   font-size: 20px;
 }
+.item .item_body .join_btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.item .item_body .join_btn a {
+  background: #0B44FF;
+  border-radius: 8px;
+  padding: 10px 35px;
+}
 
 /*# sourceMappingURL=style.css.map */
