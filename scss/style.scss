@@ -4,7 +4,8 @@
 $black: black;
 $white: white;
 $h_size: 32px;
-$main_color: white;
+$main_color_text: white;
+$main_color: #0B44FF;
 @import "mixins";
 
 *,body,html{
@@ -15,9 +16,51 @@ $main_color: white;
   text-decoration: none;
   border: none;
   outline: none;
-  color: $main_color;
+  color: $main_color_text;
+  font-family: 'Poppins', sans-serif;
+}
+.main_body{
+  background: url("../images/bg.png") no-repeat center,#000;
+  background-size: cover;
 }
 .container{
   max-width: 1200px;
   margin: 0 auto;
+}
+.header_wrap{
+  padding: 34px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .logo{
+    display: flex;
+    align-items: center;
+    img{
+      width: 81px;
+    }
+    span{
+      font-size: 22px;
+    }
+  }
+}
+.menu_wrap{
+  display: flex;
+  align-items: center;
+ .menu{
+   li{
+     display: inline-block;
+     margin-right: 38px;
+     a{
+       font-size: 17px;
+     }
+   }
+ }
+  .help_button{
+    a{
+      padding: 11px 27px;
+      background: $main_color;
+      color: $main_color_text;
+      border-radius: 6px;
+    }
+  }
 }
