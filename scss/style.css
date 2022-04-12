@@ -94,14 +94,27 @@
 .item_wrap {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
-.item_wrap .item {
+
+.item {
   border-radius: 35px;
   background: #fff;
   padding: 53px 48px;
+  max-width: 520px;
 }
-.item_wrap .item .item_img {
+.item .item_img {
   text-align: center;
+}
+.item .item_body ul {
+  margin-top: 33px;
+}
+.item .item_body ul li {
+  list-style: disc;
+  color: black;
+  margin-left: 35px;
+  margin-bottom: 10px;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -97,12 +97,26 @@ $main_color: #0B44FF;
 .item_wrap{
   display: flex;
   flex-wrap: wrap;
-  .item{
-    border-radius: 35px;
-    background: #fff;
-    padding: 53px 48px;
-    .item_img{
-      text-align: center;
+  justify-content: space-between;
+}
+.item{
+  border-radius: 35px;
+  background: #fff;
+  padding: 53px 48px;
+  max-width: 520px;
+  .item_img{
+    text-align: center;
+  }
+  .item_body{
+    ul{
+      margin-top: 33px;
+      li{
+        list-style: disc;
+        color: black;
+        margin-left: 35px;
+        margin-bottom: 10px;
+        font-size: 20px;
+      }
     }
   }
 }
